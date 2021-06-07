@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org/">
 <head th:fragment="head">
+
     <meta charset="UTF-8"/>
-    <title>Coding Events</title>
+    <title>527 Maintenance</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="undefined" crossorigin="anonymous"></script>
@@ -13,7 +14,7 @@
 <body>
 
 <header th:fragment="header">
-    <h1 th:text="${title}">Coding Events</h1>
+<!--    <h1 th:text="${title}">Coding Events</h1>-->
     <ul class="nav">
         <li class="nav-item"><a class="nav-link" href="/events">All Events</a></li>
         <li class="nav-item"><a class="nav-link" href="/events/create">Create Event</a></li>
@@ -23,6 +24,7 @@
         <li class="nav-item"><a class="nav-link" href="/tags">All Tags</a></li>
         <li class="nav-item"><a class="nav-link" href="/tags/create">Create Tag</a></li>
     </ul>
+    <h1 th:text="${title}">Coding Events</h1>
 </header>
 
 </body>

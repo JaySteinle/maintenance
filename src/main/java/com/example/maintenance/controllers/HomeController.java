@@ -14,6 +14,11 @@ public class HomeController {
         return "index";
     }
 
+    @GetMapping("/navbar")
+    public String displayNavbar(Model model){
+        model.addAttribute("title", "NavBar");
+        return "navbar";
+    }
 
 
 

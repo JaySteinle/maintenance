@@ -10,39 +10,39 @@
 
 <!--    <link rel="stylesheet" th:href="@{/styles.css}">-->
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
         }
-      }
-      background-color: #0056b9;
 
-       @media screen and (max-width: 992px) {
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        background-color: #0056b9;
+
+        @media screen and (max-width: 992px) {
             .goodBye {
                 display: none;
             }
        }
 
-      @media screen and (max-width: 250px) {
-        .byeBye {
-            display: none;
+        @media screen and (max-width: 250px) {
+            .byeBye {
+                display: none;
+            }
         }
-      }
 
-      @media screen and (max-width: 767px) {
-        .exampleAZ {
-            display: none;
+        @media screen and (max-width: 767px) {
+            .exampleAZ {
+                display: none;
+            }
         }
-      }
-      </style>
+    </style>
 </head>
 
 <body>
@@ -50,7 +50,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark" aria-label="Third navbar example">
         <div style="background-color: #0056b9" class="container-fluid rounded-3 shadow-sm">
             <a class="navbar-brand" th:href="@{/user/index}">
-                <img th:src="@{/images/icon.png}" alt="logo" border="0" width="68" height="51"/>
+                <img th:src="@{/images/image.jpg}" alt="logo" border="0" width="51" height="51"/>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -75,12 +75,6 @@
                     <li class="nav-item">
                         <a class="nav-link" style="color: white;" aria-current="page" href="/login">Login</a>
                     </li>
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link" style="color: white;" aria-current="page" href="/tags">All Tags</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link" style="color: white;" aria-current="page" href="/tags/create">Create Tag</a>-->
-<!--                    </li>-->
                 </ul>
             </div>
         </div>
@@ -92,20 +86,6 @@
         <p style="color: #0056b9; font-size: 1.125rem; " class="fw-bold">uTrain ©2021</p>
     </div>
 </footer>
-
-<!--<header th:fragment="header">-->
-<!--&lt;!&ndash;    <h1 th:text="${title}">Coding Events</h1>&ndash;&gt;-->
-<!--    <ul class="nav">-->
-<!--        <li class="nav-item"><a class="nav-link" href="/events">All Events</a></li>-->
-<!--        <li class="nav-item"><a class="nav-link" href="/events/create">Create Event</a></li>-->
-<!--        <li class="nav-item"><a class="nav-link" href="/events/delete">Delete Events</a></li>-->
-<!--        <li class="nav-item"><a class="nav-link" href="/eventCategories">All Categories</a></li>-->
-<!--        <li class="nav-item"><a class="nav-link" href="/eventCategories/create">Create Category</a></li>-->
-<!--        <li class="nav-item"><a class="nav-link" href="/tags">All Tags</a></li>-->
-<!--        <li class="nav-item"><a class="nav-link" href="/tags/create">Create Tag</a></li>-->
-<!--    </ul>-->
-<!--    <h1 th:text="${title}">Coding Events</h1>-->
-<!--</header>-->
 
 </body>
 </html>

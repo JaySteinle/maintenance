@@ -1,0 +1,305 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.signUp {
+    float: right;
+}
+
+.logIn {
+    float: right;
+}
+
+.logo {
+    background-color: #0602b9;
+    border: none;
+    display: block;
+}
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #00b1b9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown1:hover .dropdown-content1 {
+   display: block;
+ }
+
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content1 a:hover {
+  background-color: #00676c;
+}
+
+.photos{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+.image2 {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.footer {
+  overflow: hidden;
+  background-color: #0602b9;
+  font-size: 20 px;
+  min-height:25px;
+  color: white;
+  padding: 5px;
+  text-align:center;
+
+}
+.foots{
+    color: white;
+}
+
+.table {
+   font-family: Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   width: 50%;
+ }
+
+ .table td, #table th {
+   border: 1px solid #ddd;
+   padding: 8px;
+ }
+
+
+
+
+
+ .table th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: #0602b9;
+   color: black;
+   }
+
+.image {
+ }
+
+#formgroup, .form-control{
+    font-size: 20px;
+    margin: 10px;
+ }
+
+
+ .table {
+   font-family: Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+ .table td, #table th {
+    color: ##0056b9;
+   border: 1px solid ##0056b9;
+   padding: 8px;
+ }
+
+ .table th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: #0602b9;
+ }
+
+
+table.bmiTable {
+    border: 3 px solid #0056b9;
+}
+
+.titleTable {
+    background-color: #06027e;
+    text-align: center;
+    color:#0056b9;
+    border: 3 px solid;
+    border-color: #0056b9;
+}
+
+td.subTitleTable {
+  background-color: #0602b9;
+    font-size: 24px;
+    text-align: center;
+    border: 3 px solid;
+    border-color: #0056b9;
+}
+
+td.minTitleTable {
+    background-color: #06027e;
+    font-size: 20px;
+    text-align: center;
+    color: #0056b9;
+    border: 3 px solid ;
+    border-color: #0056b9;
+}
+
+td.numTable{
+    font-size: 18px;
+    text-align: center;
+    border: 3 px solid;
+    border-color: #0056b9;
+}
+ body {font-family: Arial, Helvetica, sans-serif;}
+
+ /* Set a style for all buttons */
+ button {
+   background-color: #04AA6D;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+ }
+
+ button:hover {
+   opacity: 0.8;
+ }
+
+ /* Extra styles for the cancel button */
+ .cancelbtn {
+   width: auto;
+   padding: 10px 18px;
+   background-color: #f44336;
+ }
+
+ /* Center the image and position the close button */
+ .imgcontainer {
+   text-align: center;
+   margin: 24px 0 12px 0;
+   position: relative;
+ }
+
+
+ .container {
+   padding: 16px;
+ }
+
+ span.psw {
+   float: right;
+   padding-top: 16px;
+ }
+
+ /* The Modal (background) */
+ .modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   padding-top: 60px;
+ }
+
+ /* Modal Content/Box */
+ .modal-content {
+   background-color: #fefefe;
+   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+   border: 1px solid #888;
+   width: 80%; /* Could be more or less, depending on screen size */
+ }
+
+ /* The Close Button (x) */
+ .close {
+   position: absolute;
+   right: 25px;
+   top: 0;
+   color: #000;
+   font-size: 35px;
+   font-weight: bold;
+ }
+
+ .close:hover,
+ .close:focus {
+   color: red;
+   cursor: pointer;
+ }
+
+ /* Add Zoom Animation */
+ .animate {
+   -webkit-animation: animatezoom 0.6s;
+   animation: animatezoom 0.6s
+ }
+
+ @-webkit-keyframes animatezoom {
+   from {-webkit-transform: scale(0)}
+   to {-webkit-transform: scale(1)}
+ }
+
+ @keyframes animatezoom {
+   from {transform: scale(0)}
+   to {transform: scale(1)}
+ }
+
+ /* Change styles for span and cancel button on extra small screens */
+ @media screen and (max-width: 300px) {
+   span.psw {
+      display: block;
+      float: none;
+   }
+   .cancelbtn {
+      width: 100%;
+   }
+ }
+
+
+
+/* Radio Buttons */
+
+* {
+  box-sizing: border-box;
+}
+#avatars{
+  width:200px;
+  height: 300px;
+  overflow-y: auto;
+}
+.avatars > input{
+  display: none;
+}
+
+.avatars > input + img{
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.avatars > input:checked + img{
+  border: 2px solid red;
+}
+
+.avatars {
+    height: 50px
+
+}
+}
+.interests {
+    color: #0056b9;
+}
+
+.form-label {
+    color: #0056b9;
+}
+
+.vidBody {
+    color: white;
+    background: blue;
+}

@@ -1,8 +1,12 @@
 package com.example.maintenance.models;
 
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import javax.persistence.Entity;
 import javax.validation.constraints.NotNull;
 
-public class user {
+
+@Entity
+public class User extends AbstractEntity{
 
     @NotNull
     private String username;
@@ -10,7 +14,20 @@ public class user {
     @NotNull
     private String pwHash;
 
+    private static final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 
-    @NotNull
-    private String email;
+    public User() {}
+
+    public User(@NotNull String username, @NotNull String password) {
+        this.username = username;
+        this.pwHash = encoder.encode(password);
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public boolean isMatchingPassword(String password) {
+        return encoder.matches(password, pwHash);
+    }
 }
